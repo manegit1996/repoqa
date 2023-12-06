@@ -13,7 +13,7 @@ public class TwoTest extends Base{
 	public void testTwo() throws IOException, InterruptedException {
 		
 		System.out.println("Nova izmena na test 2");
-		
+		System.out.println("Pera updateeed");
 		System.out.println("test 2");
 		driver = initializeDriver();
 		driver.get("https://tutorialsninja.com/demo/");
