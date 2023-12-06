@@ -15,6 +15,8 @@ public class FourTest extends Base {
 	@Test
 	public void testFour() throws IOException, InterruptedException {
 		
+		System.out.println("I updated this cod with statement");
+		System.out.println("NOVA PROMENAAAAAAAAAA");
 		System.out.println("TestFOur");
 		driver = initializeDriver();
 		driver.get("http://tutorialsninja.com/demo/");
