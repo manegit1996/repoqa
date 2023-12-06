@@ -1,47 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-12-05T14:14:49 CET" name="Suite" finished-at="2023-12-05T14:14:59 CET" duration-ms="10403">
+  <suite started-at="2023-12-06T13:14:19 CET" name="Suite" finished-at="2023-12-06T13:14:30 CET" duration-ms="10317">
     <groups>
-      <group name="cucumber">
-        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.Runner@9d5509a]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
-      </group> <!-- cucumber -->
     </groups>
-    <test started-at="2023-12-05T14:14:49 CET" name="TestFour" finished-at="2023-12-05T14:14:59 CET" duration-ms="10403">
-      <class name="runner.Runner">
-        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:runner.Runner@9d5509a]" started-at="2023-12-05T14:14:49 CET" name="setUpClass" finished-at="2023-12-05T14:14:49 CET" duration-ms="113" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@2fcd7d3f]]>
-              </value>
-            </param>
-          </params>
+    <test started-at="2023-12-06T13:14:19 CET" name="TwoTest" finished-at="2023-12-06T13:14:26 CET" duration-ms="7000">
+      <class name="tests.TwoTest">
+        <test-method signature="testTwo()[pri:0, instance:tests.TwoTest@3e62d773]" started-at="2023-12-06T13:14:19 CET" name="testTwo" finished-at="2023-12-06T13:14:26 CET" duration-ms="6953" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUpClass -->
-        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:runner.Runner@9d5509a]" started-at="2023-12-05T14:14:49 CET" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-12-05T14:14:59 CET" duration-ms="10258" status="PASS">
+        </test-method> <!-- testTwo -->
+      </class> <!-- tests.TwoTest -->
+    </test> <!-- TwoTest -->
+    <test started-at="2023-12-06T13:14:19 CET" name="TestThree" finished-at="2023-12-06T13:14:26 CET" duration-ms="7048">
+      <class name="tests.ThreeTest">
+        <test-method signature="testThree()[pri:0, instance:tests.ThreeTest@4bff7da0]" started-at="2023-12-06T13:14:19 CET" name="testThree" finished-at="2023-12-06T13:14:26 CET" duration-ms="7006" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testThree -->
+      </class> <!-- tests.ThreeTest -->
+    </test> <!-- TestThree -->
+    <test started-at="2023-12-06T13:14:19 CET" name="TestFour" finished-at="2023-12-06T13:14:27 CET" duration-ms="7320">
+      <class name="tests.FourTest">
+        <test-method signature="testFour()[pri:0, instance:tests.FourTest@3e0e1046]" started-at="2023-12-06T13:14:19 CET" name="testFour" finished-at="2023-12-06T13:14:27 CET" duration-ms="7191" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testFour -->
+        <test-method is-config="true" signature="closingBrowser()[pri:0, instance:tests.FourTest@3e0e1046]" started-at="2023-12-06T13:14:27 CET" name="closingBrowser" finished-at="2023-12-06T13:14:27 CET" duration-ms="88" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closingBrowser -->
+      </class> <!-- tests.FourTest -->
+    </test> <!-- TestFour -->
+    <test started-at="2023-12-06T13:14:19 CET" name="LoginTest" finished-at="2023-12-06T13:14:30 CET" duration-ms="10317">
+      <class name="tests.LoginTest">
+        <test-method is-config="true" signature="openApplication()[pri:0, instance:tests.LoginTest@389b0789]" started-at="2023-12-06T13:14:19 CET" name="openApplication" finished-at="2023-12-06T13:14:24 CET" duration-ms="4929" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method signature="login(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.LoginTest@389b0789]" started-at="2023-12-06T13:14:24 CET" name="login" data-provider="getLoginData" finished-at="2023-12-06T13:14:30 CET" duration-ms="5289" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA["Login with valid credentials"]]>
+                <![CDATA[pera123@gmail.com]]>
               </value>
             </param>
             <param index="1">
               <value>
-                <![CDATA["Application Login"]]>
+                <![CDATA[pera123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Successful]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- runScenario -->
-        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:runner.Runner@9d5509a]" started-at="2023-12-05T14:14:59 CET" name="tearDownClass" finished-at="2023-12-05T14:14:59 CET" duration-ms="3" status="PASS">
+        </test-method> <!-- login -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:tests.LoginTest@389b0789]" started-at="2023-12-06T13:14:30 CET" name="tearDown" finished-at="2023-12-06T13:14:30 CET" duration-ms="58" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearDownClass -->
-      </class> <!-- runner.Runner -->
-    </test> <!-- TestFour -->
+        </test-method> <!-- tearDown -->
+      </class> <!-- tests.LoginTest -->
+    </test> <!-- LoginTest -->
   </suite> <!-- Suite -->
 </testng-results>

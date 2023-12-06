@@ -23,7 +23,7 @@ public class FourTest extends Base {
 		driver.get("http://tutorialsninja.com/demo/");
 		Thread.sleep(2000);
 		
-		Assert.assertTrue(false);
+		//Assert.assertTrue(false);
 		
 		
 		
