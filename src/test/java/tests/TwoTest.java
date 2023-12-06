@@ -12,6 +12,8 @@ public class TwoTest extends Base{
 	@Test
 	public void testTwo() throws IOException, InterruptedException {
 		
+		System.out.println("Nova izmena na test 2");
+		
 		System.out.println("test 2");
 		driver = initializeDriver();
 		driver.get("https://tutorialsninja.com/demo/");
