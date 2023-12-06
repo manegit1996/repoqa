@@ -18,6 +18,7 @@ public class FourTest extends Base {
 		System.out.println("I updated this cod with statement");
 		System.out.println("NOVA PROMENAAAAAAAAAA");
 		System.out.println("TestFOur");
+		System.out.println("Pera grane promena");
 		driver = initializeDriver();
 		driver.get("http://tutorialsninja.com/demo/");
 		Thread.sleep(2000);
